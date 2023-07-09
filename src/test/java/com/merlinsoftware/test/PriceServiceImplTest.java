@@ -18,7 +18,6 @@ import org.mockito.InjectMocks;
 import org.mockito.Mock;
 import org.springframework.test.context.junit.jupiter.SpringExtension;
 
-import com.merlinsoftware.application.PriceService;
 import com.merlinsoftware.application.PriceServiceImpl;
 import com.merlinsoftware.application.mapper.PriceMapper;
 import com.merlinsoftware.domain.Prices;
