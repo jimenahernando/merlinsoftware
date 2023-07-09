@@ -20,7 +20,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -28,7 +28,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
@@ -49,7 +49,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -57,7 +57,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
@@ -78,7 +78,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -86,7 +86,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
@@ -107,7 +107,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -115,7 +115,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
@@ -136,7 +136,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -144,7 +144,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
@@ -165,7 +165,7 @@
 					}
 				},
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -173,7 +173,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
@@ -185,7 +185,7 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "http://localhost:8080/api/price",
+					"raw": "http://localhost:8080/api/prices",
 					"protocol": "http",
 					"host": [
 						"localhost"
@@ -193,7 +193,7 @@
 					"port": "8080",
 					"path": [
 						"api",
-						"price"
+						"prices"
 					]
 				}
 			},
