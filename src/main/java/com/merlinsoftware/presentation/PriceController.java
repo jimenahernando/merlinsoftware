@@ -17,7 +17,7 @@ import com.merlinsoftware.application.PriceService;
 import com.merlinsoftware.infraestructure.PriceNotFoundException;
 
 @RestController
-@RequestMapping("/api/price")
+@RequestMapping("/api/prices")
 public class PriceController {
 
 	@Autowired
