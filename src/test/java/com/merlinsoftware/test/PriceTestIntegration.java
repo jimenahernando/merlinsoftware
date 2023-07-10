@@ -50,7 +50,7 @@ class PriceTestIntegration {
 	
 	@Test
 	void getAllPrices() throws Exception {
-		this.mockMvc.perform(get("/api/price"))
+		this.mockMvc.perform(get("/api/prices"))
 			.andDo(print())
 			.andExpect(status().isOk())
 			.andExpect(content().contentType(APPLICATION_JSON))
@@ -67,7 +67,7 @@ class PriceTestIntegration {
 		final File jsonFile = new ClassPathResource("init/price_not_found.json").getFile();
 		final String priceFound = Files.readString(jsonFile.toPath());
 
-		this.mockMvc.perform(post("/api/price")
+		this.mockMvc.perform(post("/api/prices")
 			.contentType(APPLICATION_JSON)
 			.content(priceFound))
 			.andDo(print())
@@ -87,13 +87,13 @@ class PriceTestIntegration {
 		JSONArray json = new JSONArray(priceFound);
 		JSONObject objeto = json.getJSONObject(position);
 
-		this.mockMvc.perform(post("/api/price")
+		this.mockMvc.perform(post("/api/prices")
 			.contentType(APPLICATION_JSON)
 			.content(objeto.toString()))
 			.andDo(print())
 			.andExpect(status().isOk())
             .andExpect(jsonPath("$").isMap())
-            .andExpect(jsonPath("$", aMapWithSize(3)))
+            .andExpect(jsonPath("$", aMapWithSize(4)))
 			.andExpect(jsonPath("$.brandId").value(1))
 			.andExpect(jsonPath("$.productId").value(35455))
 			.andExpect(jsonPath("$.price").value(price));
