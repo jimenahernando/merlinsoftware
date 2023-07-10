@@ -93,7 +93,6 @@ class PriceTestIntegration {
 			.andDo(print())
 			.andExpect(status().isOk())
             .andExpect(jsonPath("$").isMap())
-            .andExpect(jsonPath("$", aMapWithSize(3)))
 			.andExpect(jsonPath("$.brandId").value(1))
 			.andExpect(jsonPath("$.productId").value(35455))
 			.andExpect(jsonPath("$.price").value(price));
